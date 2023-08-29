@@ -2,11 +2,9 @@ body{
     margin: 0;
     background-color: rgba(0, 0, 0, 0.092);
 }
-main{
-    position: relative;
-}
 .topscrl{
     background-color:  rgb(11, 20, 92);
+    position: relative;
 }
 marquee{
     background-color: rgb(11, 20, 92);
@@ -61,7 +59,9 @@ marquee{
     height: 10vh;
     width: 100vw;
     box-sizing: border-box;
-    background-color: red;
+    position: sticky;
+    top: 0;
+    background-color: blue;
 }
 .maindiv img{
     height: 7vh;
@@ -76,5 +76,37 @@ marquee{
     border: none;
     font-family:sans-serif;
     font-size: 13px;
-   
+    padding-left: 10vw;
+    padding-top: 4vh;
+}
+.women{
+    padding-left: 1vw;
+}
+.sales{
+    padding-left: 1vw;
+    color: red;
+}
+.subop{
+    position: absolute;
+    top: 10vh;
+    left: 7vw;
+    width: 93vw;
+    height: max-content;
+}
+.items{
+    list-style: none;
+    text-align: left;
+    color: black;
+    line-height: 4vh;
+    letter-spacing: 0.6px;
+}
+.itemh{
+    color: rgb(11, 20, 92);
+    font-size: 13px;
+    font-weight: 600;
+}
+.items2{
+    position: absolute;
+    top: 0vh;
+    left: 20vw;
 }
