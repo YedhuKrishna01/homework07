@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.092);
+    background-color: white;
 }
 .topscrl{
     background-color:  rgb(11, 20, 92);
@@ -80,7 +80,6 @@ marquee{
 }
 .cat:hover{
     text-decoration: underline red;
-
 }
 .women{
     padding-left: 1vw;
@@ -92,9 +91,14 @@ marquee{
 .subop{
     position: absolute;
     top: 10vh;
-    left: 7vw;
-    width: 93vw;
+    left: 0;
+    width: 100vw;
     height: max-content;
+    opacity: 0;
+}
+.cat:hover .subop{
+    opacity: 1;
+    background-color: white;
 }
 .items{
     list-style: none;
@@ -112,4 +116,7 @@ marquee{
     position: absolute;
     top: 0vh;
     left: 20vw;
+}
+.mainpic{
+    width: 100vw;
 }
