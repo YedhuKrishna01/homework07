@@ -61,7 +61,6 @@ marquee{
     box-sizing: border-box;
     position: sticky;
     top: 0;
-    background-color: blue;
 }
 .maindiv img{
     height: 7vh;
@@ -78,6 +77,10 @@ marquee{
     font-size: 13px;
     padding-left: 10vw;
     padding-top: 4vh;
+}
+.cat:hover{
+    text-decoration: underline red;
+
 }
 .women{
     padding-left: 1vw;
