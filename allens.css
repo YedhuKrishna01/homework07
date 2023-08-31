@@ -2,6 +2,10 @@ body{
     margin: 0;
     background-color: white;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .topscrl{
     background-color:  rgb(11, 20, 92);
     position: relative;
@@ -61,6 +65,7 @@ marquee{
     box-sizing: border-box;
     position: sticky;
     top: 0;
+    background-color: white;
 }
 .maindiv img{
     height: 7vh;
@@ -87,6 +92,24 @@ marquee{
 .sales{
     padding-left: 1vw;
     color: red;
+}
+.search{
+    border: none;
+    border-bottom: 1px solid rgb(8, 23, 43);
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    top:20px;
+    left: 1000px;
+    z-index:-1;
+    padding-left: 23px;
+}
+.search::placeholder {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search:focus{
+    outline: none;
 }
 .subop{
     position: absolute;
@@ -127,4 +150,60 @@ marquee{
 }
 .mainpic{
     width: 100vw;
+    height: 60vh;
+}
+.salepic{
+    margin-left: 6vw;
+    margin-top: 4vh;
+}
+.commonpic{
+    margin-left: 2vw;
+    margin-top: 4vh;
+}
+.salehead{
+    color: rgb(11, 20, 92);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 11vw;
+    margin-top: 2vh;
+}
+.commonhead{
+    color: rgb(11, 20, 92);
+    display: inline-block;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 12vw;
+    margin-top: 2vh;
+}
+.app_ad{
+    background-color: rgb(226, 198, 147);
+    width: 100vw;
+    height: 30vh;
+}
+h1{
+    color: rgb(11, 20, 92);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30vw;
+    padding-left: 10vw;
+    padding-top: 5vh;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding-left: 10vw;
+}
+.appstore{
+    margin-left: 10vw;
+}
+.gplay{
+    margin-left: 1vw;
+}
+.qr{
+    position: absolute;
+    left: 40vw;
+    top: 120vh;
+    transform: scale(0.6);
 }
