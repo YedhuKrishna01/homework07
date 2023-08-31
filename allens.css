@@ -95,7 +95,7 @@ marquee{
     width: 100vw;
     padding-left: 5vw;
     box-sizing: border-box;
-    height: max-content;
+    height: 75vh;
     background-color: white;
     display: none;
 }
@@ -103,6 +103,9 @@ marquee{
     display: block !important;
 }
 .women:hover~.womenbar{
+    display: block !important;
+}
+.boy:hover~.boybar{
     display: block !important;
 }
 .items{
