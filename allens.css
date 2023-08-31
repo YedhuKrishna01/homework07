@@ -93,12 +93,17 @@ marquee{
     top: 10vh;
     left: 0;
     width: 100vw;
+    padding-left: 5vw;
+    box-sizing: border-box;
     height: max-content;
-    opacity: 0;
-}
-.cat:hover .subop{
-    opacity: 1;
     background-color: white;
+    display: none;
+}
+.men:hover~.menbar{
+    display: block !important;
+}
+.women:hover~.womenbar{
+    display: block !important;
 }
 .items{
     list-style: none;
